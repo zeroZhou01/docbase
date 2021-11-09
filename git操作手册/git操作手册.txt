@@ -1,0 +1,31 @@
+查看git配置信息
+git config -l
+查看系统配置信息
+git config  --system --list
+本地全局
+git config --global --list
+
+配置用户名
+git config --global user.name "xiaoma"
+配置邮箱
+git config --global user.email "3321491057@qq.com"
+
+
+初始化
+git init
+
+查看文件状态
+git status
+
+添加进入暂存区
+git add . 
+
+添加进入仓库
+git commit -m "消息内容"
+
+忽略文件
+.gitignore文件添加规则
+*.txt
+!lib.txt
+/temp
+
